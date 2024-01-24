@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #F8F7F1;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0 50px;
+    margin: 0 50px;
+}
+
+img{
+    border-radius: 10px;
+}
+ 
+
+header {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+.hero{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.collection{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.collection .text{
+    margin-bottom: 40px;
+}
+
+.collection .images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.collection .images img{
+    height: 250px;
+    width: 250px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.social-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+    .hero h1{
+        font-size: 18px;
+    }
+
+    .collection h3{
+        font-size: 12px;
+    }
+
+    .links{
+        flex-direction: column;
+        gap: 50px 0;
+    }
+}
